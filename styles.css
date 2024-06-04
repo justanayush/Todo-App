@@ -1,0 +1,65 @@
+body{
+    background-image: radial-gradient(circle, #ffffff, #e2e3e8, #c4c8d1, #a4aebb, #8496a4);
+    font-family: 'Reddit Mono';
+}
+.todo-app{
+    width: 300px;
+    margin: 60px auto 20px;
+    border-radius: 5px;
+    padding: 7px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+h1{
+    font-size: 25px;
+}
+.heading{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.heading img{
+    width: 45x;
+    height: 40px;
+}
+
+h1{
+    font-family: 'Dancing Script';
+    
+}
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(222, 228, 233);
+    margin: 0 15px;
+    border-radius: 10px;
+}
+.input-box input{
+    flex: 1;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+    background: transparent;
+}
+
+.input-box button{
+    width: 50px;
+    background-color: rgb(23, 110, 193);
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding: 2px;
+    cursor: pointer;
+    color: azure;
+}
+.tasks{
+    font-family: 'Reddit Mono';
+}
