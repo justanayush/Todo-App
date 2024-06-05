@@ -48,6 +48,7 @@ h1{
     outline: none;
     border-radius: 5px; 
     background: transparent;
+    padding-left: 10px;
 }
 
 .input-box button{
@@ -59,7 +60,62 @@ h1{
     padding: 2px;
     cursor: pointer;
     color: azure;
+    transition: all ease-in 0.1s;
+}
+.input-box button:hover{
+    background-color: gray;
+    color: white;
 }
 .tasks{
     font-family: 'Reddit Mono';
+}
+
+.todos {
+    list-style: none;
+    padding-left: 20px;
+    display: inline-block;
+    width: 255px;
+    font-size: 0.8rem;
+    user-select: none;
+}
+.unchecked{
+    width: 15px;
+    height: 13px;
+    margin-right: 10px;
+    
+}
+
+.delete{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    transition: background-color ease-in-out 0.2s;
+}
+.delete:hover{
+    background-color: crimson;
+}
+li span, .unchecked{
+    cursor: pointer;
+}
+.task-complete{
+    text-decoration: line-through;
+}
+
+li p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li span{
+    flex:1;
+    display: inline-block;
+}
+
+li .checked{
+    cursor: pointer;
 }
