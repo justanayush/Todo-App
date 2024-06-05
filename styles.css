@@ -130,14 +130,14 @@ li .checked{
 
 @media screen and (max-width: 467px) {
     .todo-app {
-      width:300px;
+      width:320px;
     }
     .input-box{
-        width: 250px;
+        width: 260px;
     }
 
 .todos{
-    width: 248px;
+    width: 258px;
     font-size: 0.8rem;
 }
 }
